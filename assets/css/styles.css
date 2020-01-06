@@ -1,0 +1,102 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#home {
+    background-color: turquoise;
+    color: white;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+h1 {
+    color: turquoise;
+}
+
+h2 {
+    color: turquoise;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-header {
+        background-color: turquoise;
+    }
+}
+
+#lat-image {
+    float: left;
+    width: 215px;
+    height: 215px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+
+.square-image {
+    background: white;
+    box-sizing: border-box;
+    min-height: 300px;
+    padding: 25px;
+    margin: 5px;
+    font-weight: 450;
+}
+
+p {font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+#box-images {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+.image-header {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: turquoise;
+    font-weight: 450;
+    text-align: center;
+}
+
+.image-photo {
+    width: 150px;
+    height: 150px;
+}
+
+#images {
+    padding-top: 15px;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+.comp {
+    background: white;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 5px;
+    color: black;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #comp-header {
+        font-size: 30px;
+    }
+}
+
+#comp-image {
+    align-self: center;
+}
+
+.table-temp {
+    background: white;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 5px;
+}
+
